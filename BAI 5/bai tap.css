@@ -6,17 +6,25 @@
 		font-family: tp;
 		src: url(SCRIPTIN.ttf);
 	}
-body {
-	background: #8033FF;
-	
-}
-.demo1{
+.tieude {
 	color: #FFD133 !important;
 	font-size: 80px;
 	font-family: tp;
 	text-shadow: 6px 5px 10px purple;
 	text-align: center;
-	
+}
+.phanmota {
+	color: green ;
+	font-size: 60px;
+	text-align: center;
+	font-style: bold ;
+}
+.cacdemuc {
+	font-size: 30px;
+	font-style: bold;
+}
+.content1 {
+	font-size: 20px;
 }
 .content {
 	padding-top: 5px;
@@ -25,11 +33,13 @@ body {
 	text-indent: 20px;
 	text-align: justify;
 	/* in hoa ca doan van*/
-	text-transform: uppercase !important;
-	/* in thuong ca doan van*/
-	text-transform: lowercase;
 	font-size: 20px;
-	/*gach chu*/
-	text-decoration: underline overline;
+}
+.tp1 {
+	font-style: bold;
+	font-size: 20px;
 
+}
+.tp2{
+	text-align: right;
 }
