@@ -1,0 +1,23 @@
+*{ margin: 10px;
+padding: 15px; }
+nav {
+	box-shadow: 3px 5px 18px;
+}
+ul li {
+	float: left;
+}
+ul{
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+ul li{
+	box-shadow: 1px 3px 5px;
+	list-style-type: none;
+	width: 190px;
+	margin-bottom: 0em;
+	border: 2px solid blue;
+}
+ul li a{
+	padding: 2px 2px 2px 2px;
+}
