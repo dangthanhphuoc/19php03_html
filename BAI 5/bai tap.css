@@ -1,27 +1,50 @@
 * {
-	padding: 0;
-	margin: 0;
+	padding: 20;
+	margin: 70;
 }
 @font-face {
 		font-family: tp;
 		src: url(SCRIPTIN.ttf);
 	}
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+#logo {
+	width: 33%;
+	float: left;
+}
+#slogan {
+	width: 66%;
+	float: left;
+}
 .tieude {
-	color: #FFD133 !important;
-	font-size: 80px;
+	color: #FFD133 ;
+	font-size: 46px;
 	font-family: tp;
 	text-shadow: 6px 5px 10px purple;
 	text-align: center;
 }
 .phanmota {
 	color: green ;
-	font-size: 60px;
+	font-size: 40px;
 	text-align: center;
 	font-style: bold ;
 }
-.cacdemuc {
+b{
+	font-size: 36px ;
+}
+.smallcontent {
+	margin-left: 30px;
+}
+b {
 	font-size: 30px;
-	font-style: bold;
 }
 .content1 {
 	font-size: 20px;
@@ -35,11 +58,10 @@
 	/* in hoa ca doan van*/
 	font-size: 20px;
 }
-.tp1 {
-	font-style: bold;
-	font-size: 20px;
 
-}
 .tp2{
 	text-align: right;
+}
+b{
+	font-size: 20px;
 }
