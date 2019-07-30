@@ -22,5 +22,6 @@ ul li a{
 	padding: .5em 0 .5em 1.5em;
 }
 ul li a.content{
-	background-color: silver;
+	border-b: silver;
+
 }

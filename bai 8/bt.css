@@ -1,0 +1,112 @@
+@font-face {
+	font-family: tittle;
+	src: url(SCRIPTIN.ttf);
+}
+
+body {
+	background-image: linear-gradient(to top, pink, blue);
+}
+
+#container {
+	width: 90%;
+	margin: auto;
+	border: 1px solid black;
+	box-shadow: 2px 4px 6px red;
+	background-color: white;
+	border-radius: 20px;
+}
+
+header, .menu, section, footer {
+	margin: 10px;
+	padding: 10px;
+}
+
+header {
+	border-bottom: 2px solid blue;
+}
+
+.img {
+	float: left;
+	box-shadow: 2px 4px 6px grey;
+	margin: 20px;
+	border-radius: 5%;
+}
+
+.text {
+	margin-left: 40px;
+	padding-left: 40px;
+}
+header div h1 {
+	color: purple;
+	font-family: title;
+	text-shadow: 2px 4px 6px black;
+}
+
+header div h3 {
+	color: red;
+	font-size: 20px;
+}
+
+.menu {
+	height: 10px;
+	line-height: 5px;
+	border-bottom: 2px solid blue;
+}
+.menu ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: auto;
+}
+.menu ul li {
+	display: inline;
+	border-right: 2px solid blue;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.menu ul li a {
+	font-weight: bold;
+	color: brown;
+}
+.menu ul li a:hover {
+	color: blue;
+}
+.menu ul li a:hover, a:focus {
+	font-size: 15px;
+}
+
+section {
+	height: 400px;
+}
+.underlined {
+	color: grey;
+	text-decoration-style: solid;
+}
+
+.link {
+	color: yellow;
+	/*xóa gạch chân của thẻ link*/
+	text-decoration: none;
+}
+.link_blue {
+	color: blue;
+}
+
+.left {
+	border-right: 2px solid blue;
+	float: left;
+	width: 64.5%;
+	margin-right: 10px;
+}
+.right {
+	width: 34%;
+	float: left;
+	/*margin-left: 5px;*/
+}
+.right b {
+	color: #229C0F;
+}
+
+footer {
+	border-top: 2px solid blue;
+	text-align: right;
+}
